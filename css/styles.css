@@ -1,0 +1,20 @@
+.slider__custom {
+  overflow: hidden;
+}
+
+.slider__container {
+  position: relative;
+  width: max-content;
+  display: flex;
+}
+
+.slider__slide {
+  position: relative;
+  top: 0;
+  margin: 0 15px;
+}
+
+.slider__slide video {
+  max-width: 75vw;
+  object-fit: fill;
+}
